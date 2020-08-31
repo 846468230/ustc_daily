@@ -95,7 +95,7 @@ class Report(object):
 
 def report_all(data_path):
     students = [
-                ("Ñ§ºÅ","ÃÜÂë")
+                ("SA19221032","48486751yyn!")
             ]
     for item in students:
         autorepoter = Report(stuid=item[0], password=item[1], data_path=data_path)
